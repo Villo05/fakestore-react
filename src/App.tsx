@@ -6,12 +6,12 @@ function App() {
   
     return (
       <>
-        <header>FakeStore</header>
+        <header className='bg-[#dbbf9b] p-8 font-bold text-xl mb-4' >FakeStore</header>
         <article>
           <Products />
         </article>
-        <footer>
-          <p>Késztette: Stolár-németh Villő</p>
+        <footer className='bg-[#dbbf9b] text-lg p-2 m-2 text-center rounded-xl'>
+          <p>Késztette: Stolár-Németh Villő</p>
         </footer>
       </>
     )

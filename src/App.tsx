@@ -1,4 +1,5 @@
 import './App.css'
+import Products from './components/Products'
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <>
         <header>FakeStore</header>
         <article>
-          <div>Products</div>
+          <Products />
         </article>
         <footer>
           <p>Késztette: Stolár-németh Villő</p>
